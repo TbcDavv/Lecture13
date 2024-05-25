@@ -1,0 +1,135 @@
+body {
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  header, main {
+    width: 90%;
+    margin: auto;
+  }
+  
+  header nav {
+    display: flex;
+  
+    ul {
+      list-style: none;
+      padding-top: 10px;
+  
+      &:first-child {
+        padding-left: 0px;
+      }
+  
+      li a {
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+      }
+    }
+  }
+  
+  main {
+    .trending {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .box {
+      .image {
+        position: relative;
+  
+        p {
+          position: absolute;
+          top: 10px;
+          left: 30px;
+          color: white;
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+  
+      .info {
+        width: 362px;
+        height: 186px;
+        background-color: white;
+  
+        .insideContent {
+          padding-top: 20%;
+          width: 85%;
+          margin: auto;
+          font-size: 10px;
+          color: #8A8787;
+        }
+  
+        p {
+          margin: 0px;
+        }
+  
+        .time {
+          margin-top: 30px;
+        }
+      }
+    }
+  
+    .happeningNow {
+      display: flex;
+  
+      .imgText {
+        position: relative;
+        margin-bottom: 30px;
+  
+        p {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+  
+      .left {
+        margin-right: 150px;
+      }
+  
+      .right img {
+        display: block;
+        margin-bottom: 100px;
+      }
+    }
+  }
+  
+  footer {
+    background-color: #243043;
+  
+    .insideFooter {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .links {
+      display: flex;
+  
+      section {
+        margin-right: 100px;
+  
+        a {
+          color: #818687;
+          font-weight: 700;
+          text-decoration: none;
+          display: block;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  
+    .slogan {
+      color: white;
+    }
+  }
+  
